@@ -30,3 +30,5 @@ N.B: I could not reproduce the error in a controller in the engine
   - http://localhost:5000/admin/tests (not ok)
   > [engine] request.path : //admin/tests
 
+
+N.B : You can checkout 96088cc7fdabf43e2b2b813fd5c54916b10e6d55 (airbrake 9.5.0) to see all double slashes dissapear

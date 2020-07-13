@@ -51,8 +51,8 @@ GEM
     activesupport (3.2.22.5)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    airbrake (9.5.0)
-      airbrake-ruby (~> 4.8)
+    airbrake (10.0.5)
+      airbrake-ruby (~> 4.13)
     airbrake-ruby (4.15.0)
       rbtree3 (~> 0.5)
     arbre (1.1.1)
@@ -169,7 +169,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  airbrake (= 9.5.0)
+  airbrake
   api!
   backoffice!
   pg (~> 0.19.0)

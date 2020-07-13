@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.2.9'
 
-gem 'airbrake', '9.5.0'
+gem 'airbrake'
 
 gem 'pg', '~> 0.19.0'
 
