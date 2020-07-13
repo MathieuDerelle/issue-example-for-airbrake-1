@@ -1,8 +1,16 @@
+# installation
+
+You'll need a database to launch console or servers end edit `config/dabase.yml`.
+
+Then `bundle install && rails c`
+
 # steps to reproduce
 
 You can launch 3 servers at the same time and check the different URLs which are marked with
 - "ok" : only one leading slash in `request.path`
 - "not ok" : two leading slash in `request.path`
+
+The commands :
 
 - `rails s` (ok)
 

@@ -20,3 +20,5 @@ end
 
 engine 'api'
 engine 'backoffice'
+
+gem 'test-unit', '~> 3.0'
