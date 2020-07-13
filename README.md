@@ -1,8 +1,7 @@
 # installation
 
-You'll need a database to launch console or servers end edit `config/dabase.yml`.
-
-Then `bundle install && rails c`
+You'll need a database to launch console or servers.
+So you can edit `config/dabase.yml` and then `bundle install && rails c`.
 
 # steps to reproduce
 
@@ -39,4 +38,4 @@ N.B: I could not reproduce the error in a controller in the engine
   > [engine] request.path : //admin/tests
 
 
-N.B : You can checkout 96088cc7fdabf43e2b2b813fd5c54916b10e6d55 (airbrake 9.5.0) to see all double slashes dissapear
+N.B : You can checkout [96088cc](https://github.com/MathieuDerelle/issue-example-for-airbrake-1/commit/96088cc7fdabf43e2b2b813fd5c54916b10e6d55) (airbrake 9.5.0) to see all double slashes dissapear
